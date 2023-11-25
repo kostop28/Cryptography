@@ -1,0 +1,4 @@
+def euclidean_algorithm(k, d):
+    while d != 0:
+        k, d = d, k % d
+    return k
